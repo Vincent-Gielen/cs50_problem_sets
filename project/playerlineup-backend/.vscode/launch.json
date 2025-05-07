@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to server",
+      "address": "localhost",
+      "port": 9001,
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "restart": true,
+      "timeout": 10000
+    }
+  ]
+}

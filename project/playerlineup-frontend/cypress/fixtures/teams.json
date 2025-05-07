@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Los Angeles Lakers",
+      "user_id": 1,
+      "players": []
+    },
+    {
+      "id": 2,
+      "name": "Golden State Warriors",
+      "user_id": 1,
+      "players": []
+    }
+  ]
+}

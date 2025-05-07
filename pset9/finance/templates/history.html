@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <form action="/history" method="post">
+        <h1>History</h1>
+        <table width=100%>
+            <thead>
+                <tr>
+                    <th>Stock</th>
+                    <th>Type of trade</th>
+                    <th>Number of shares traded</th>
+                    <th>Price during the transaction</th>
+                    <th>Date and time</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for trade in tradesList %}
+                <tr>
+                   <td>{{ trade.symbol }}</td>
+                   <td>{{ trade.type }}</td>
+                   <td>{{ trade.amount }}</td>
+                   <td>{{ trade.price }}</td>
+                   <td>{{ trade.dateTime }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </form>
+{% endblock %}

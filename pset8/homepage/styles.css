@@ -1,0 +1,43 @@
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+    margin:10px
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#darthVader {
+    float: right;
+}
+
+h1 {
+    margin: 30px;
+}
+
+#castTabel td, #castTabel th {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#castTabel th {
+    background-color: red;
+    font-size: 20px;
+}
+
+.vote {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.vote:hover {
+    font-weight: bold;
+}
+
+.score {
+    text-align: center;
+}

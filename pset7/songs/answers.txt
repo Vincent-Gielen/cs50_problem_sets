@@ -1,0 +1,2 @@
+- The average energy, valence and danceability is 0.62, so I would say they are a bit above average.
+- This could cause a few very high or low scoring songs to change the average. So I would have the amount of songs with a certain score weigh higher than others.

@@ -1,0 +1,7 @@
+{
+  "name": "playerlineup-backend",
+  "version": "1.0.0",
+  "description": "Backend for playerlineup",
+  "title": "Playerlineup API with apiDoc",
+  "url": "http://localhost:9000"
+}

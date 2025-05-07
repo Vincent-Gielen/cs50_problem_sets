@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <form action="/index" method="post">
+        <table width=100%>
+            <thead>
+                <tr>
+                    <th>Current cash</th>
+                    <th>Grand total</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                    <td>{{ currentCashUsd }}</td>
+                    <td>{{ grandTotalUsd }}</td>
+                 </tr>
+            </tbody>
+        </table>
+        <table width=100%>
+            <thead>
+                <tr>
+                    <th>Stocks</th>
+                    <th>Number of shares owned</th>
+                    <th>Current price</th>
+                    <th>Total value</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stockDetail in stockDetails %}
+                <tr>
+                   <td>{{ stockDetail.symbol }}</td>
+                   <td>{{ stockDetail.amount }}</td>
+                   <td>{{ stockDetail.price }}</td>
+                   <td>{{ stockDetail.total_value }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </form>
+{% endblock %}

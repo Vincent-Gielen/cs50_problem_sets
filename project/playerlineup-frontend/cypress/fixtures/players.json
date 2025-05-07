@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Test Player 11",
+      "position": "Center",
+      "user_id": 1
+    },
+    {
+      "id": 1,
+      "name": "Kobe Bryant",
+      "position": "Point Guard",
+      "user_id": 1
+    }
+  ]
+}
