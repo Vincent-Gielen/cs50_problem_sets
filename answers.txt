@@ -1,0 +1,23 @@
+sort1 uses: bubble sort
+              S        RA          RE
+5000:        0.029     0.062       0.073
+10000:      0.084       0.261       0.240
+50000:      0.452       5.536      4.840
+
+How do you know? There is a big difference in time when the list is sorted and when it's not. When it's not, it takes a long time
+
+sort2 uses: merge sort
+              S        RA          RE
+5000:        0.058     0.087       0.063
+10000:      0.068      0.083       0.077
+50000:      0.412       0.466      0.471
+
+How do you know?: It takes the same time to sort the list, regardless if it's sorted, random, or reversed. It's the fastest overall.
+
+sort3 uses: selection sort
+              S        RA          RE
+5000:        0.050     0.068       0.055
+10000:      0.146      0.128       0.148
+50000:      2.323       2.307      2.586
+
+How do you know?: It takes the same time to sort the list, regardless if it's sorted, random, or reversed. It's slower when the list gets larger
